@@ -11,13 +11,13 @@ const DatacenterDetailModal = ({
   className,
   ...props 
 }) => {
-  if (!datacenter) return null
-
   const handleBackdropClick = useCallback((e) => {
     if (e.target === e.currentTarget) {
       onClose()
     }
   }, [onClose])
+
+  if (!datacenter) return null
 
   const getStatusVariant = (status) => {
     switch (status?.toLowerCase()) {
