@@ -1,8 +1,15 @@
 import { Outlet } from "react-router-dom"
+import { cn } from "@/utils/cn"
 
-const Layout = () => {
+const Layout = ({ className, ...props }) => {
   return (
-    <div className="min-h-screen bg-background">
+    <div 
+      className={cn(
+        "min-h-screen bg-background",
+        className
+      )}
+      {...props}
+    >
       <Outlet />
     </div>
   )
