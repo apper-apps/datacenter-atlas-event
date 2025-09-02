@@ -22,9 +22,12 @@ const MapContainer = ({
   const [selectedDatacenter, setSelectedDatacenter] = useState(null)
 
   // Initialize map
-  useEffect(() => {
+useEffect(() => {
     const initializeMap = () => {
-      if (!window.google || !mapRef.current) return
+      if (!window.google?.maps || !mapRef.current) {
+        console.warn("Google Maps API not available or map container not ready")
+        return
+      }
       
       try {
         mapInstanceRef.current = new window.google.maps.Map(mapRef.current, {
@@ -62,26 +65,46 @@ const MapContainer = ({
         })
 
         // Initialize MarkerClusterer if available
-        if (window.markerClusterer) {
+        if (window.markerClusterer?.MarkerClusterer) {
           clustererRef.current = new window.markerClusterer.MarkerClusterer({
             map: mapInstanceRef.current,
             markers: []
           })
+        } else {
+          console.warn("MarkerClusterer library not loaded")
         }
 
         setIsLoaded(true)
         setError(null)
       } catch (err) {
         console.error("Error initializing map:", err)
-        setError("Failed to initialize map. Please check your internet connection.")
+        setError(`Failed to initialize Google Maps: ${err.message}. Please check your API key and internet connection.`)
       }
     }
 
-    if (window.googleMapsLoaded) {
+    const handleMapsError = () => {
+      console.error("Google Maps API failed to load")
+      setError("Google Maps API failed to load. Please check your API key and try again.")
+      setIsLoaded(false)
+    }
+
+    // Check if Google Maps is already loaded
+    if (window.googleMapsLoaded && window.google?.maps) {
       initializeMap()
+    } else if (window.googleMapsError) {
+      handleMapsError()
     } else {
-      window.addEventListener("google-maps-loaded", initializeMap)
-      return () => window.removeEventListener("google-maps-loaded", initializeMap)
+      // Wait for Google Maps to load
+      const mapsLoadedHandler = initializeMap
+      const mapsErrorHandler = handleMapsError
+      
+      window.addEventListener("google-maps-loaded", mapsLoadedHandler)
+      window.addEventListener("google-maps-error", mapsErrorHandler)
+      
+      return () => {
+        window.removeEventListener("google-maps-loaded", mapsLoadedHandler)
+        window.removeEventListener("google-maps-error", mapsErrorHandler)
+      }
     }
   }, [onMapBoundsChanged])
 

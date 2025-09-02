@@ -5,14 +5,40 @@
     <link rel="icon" type="image/svg+xml" href="/vite.svg" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>DataCenter Atlas - Global Infrastructure Map</title>
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800;900&display=swap" rel="stylesheet">
-    <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBFw0Qbyq9zTFTd-tUY6dOWTgaN2KKlU8o&libraries=places,geometry&callback=initMap" async defer></script>
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>DataCenter Atlas</title>
+    <link rel="icon" type="image/svg+xml" href="/vite.svg" />
+    
+    <!-- Google Maps API -->
+    <script>
+      function initGoogleMaps() {
+        window.googleMapsLoaded = true;
+        window.dispatchEvent(new Event('google-maps-loaded'));
+      }
+      
+      function handleGoogleMapsError() {
+        console.error('Failed to load Google Maps API');
+        window.googleMapsError = true;
+        window.dispatchEvent(new Event('google-maps-error'));
+      }
+    </script>
+    <script 
+      src="https://maps.googleapis.com/maps/api/js?key=VITE_GOOGLE_MAPS_API_KEY&callback=initGoogleMaps&libraries=geometry&v=3"
+      async 
+      defer
+      onerror="handleGoogleMapsError()"
+    ></script>
+    
+    <!-- MarkerClusterer -->
+    <script 
+      src="https://unpkg.com/@googlemaps/markerclusterer/dist/index.min.js"
+      async
+    ></script>
   </head>
   <body>
     <div id="root"></div>
     <script type="module" src="/src/main.jsx"></script>
+  </body>
     <script>
       function initMap() {
         window.googleMapsLoaded = true;
