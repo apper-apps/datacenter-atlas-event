@@ -1,0 +1,1112 @@
+[
+  {
+    "Id": 1,
+    "name": "Equinix DC2",
+    "operator": "Equinix",
+    "brand": "Equinix",
+    "facilityCode": "DC2",
+    "website": "https://www.equinix.com/locations/americas-colocation/united-states-colocation/washington-dc-data-centers/dc2/",
+    "status": "Operational",
+    "openingDate": "2001-03-15",
+    "location": {
+      "address": "44461 Chilum Place",
+      "city": "Ashburn",
+      "region": "Virginia",
+      "country": "United States",
+      "postalCode": "20147",
+      "campus": "Ashburn Campus"
+    },
+    "coordinates": {
+      "latitude": 39.0438,
+      "longitude": -77.4874
+    },
+    "specifications": {
+      "buildingSize": 750000,
+      "whiteSpace": 500000,
+      "siteArea": 2000000,
+      "constructionType": "Purpose-built",
+      "floors": 4,
+      "seismicZone": "Low",
+      "floodRisk": "Minimal"
+    },
+    "power": {
+      "totalCapacity": 95,
+      "powerDensity": 17,
+      "utilityProvider": "Dominion Energy",
+      "upsRedundancy": "2N",
+      "backupGenerators": "Diesel, 72 hours",
+      "batteryType": "Lithium-ion",
+      "renewableEnergy": 100
+    },
+    "cooling": {
+      "capacity": 85000,
+      "redundancy": "N+1",
+      "systemType": "Chilled water with free cooling",
+      "hotColdAisle": true
+    },
+    "network": {
+      "carriers": ["Verizon", "AT&T", "Lumen", "Comcast", "Charter", "Cogent"],
+      "carrierNeutral": true,
+      "darkFiber": ["Crown Castle", "Digital Realty", "Zayo"],
+      "internetExchanges": ["Equinix Internet Exchange"],
+      "cloudOnRamps": ["AWS Direct Connect", "Microsoft Azure ExpressRoute", "Google Cloud Interconnect", "Oracle FastConnect"],
+      "crossConnects": ["Copper", "Fiber", "Coax"]
+    },
+    "security": {
+      "accessControls": "Biometric + Keycard + PIN",
+      "surveillance": "24x7 CCTV, 90-day retention",
+      "onsiteSecurity": "24x7 Security Staff",
+      "fireSuppressionSystem": "VESDA with Inergen",
+      "certifications": ["ISO 27001", "SOC 2 Type II", "PCI-DSS", "Uptime Institute Tier III"]
+    },
+    "services": {
+      "colocationOptions": ["Rack", "Cage", "Private Suite", "Wholesale"],
+      "managedServices": ["Remote Hands", "24x7 Monitoring", "Backup Services"],
+      "disasterRecovery": true,
+      "hybridCloud": true
+    },
+    "sustainability": {
+      "pue": 1.25,
+      "renewableEnergy": 100,
+      "carbonNeutral": "2030",
+      "coolingInnovations": ["Free cooling", "Liquid cooling ready"]
+    },
+    "lastUpdated": "2024-01-15"
+  },
+  {
+    "Id": 2,
+    "name": "Digital Realty NTT1",
+    "operator": "Digital Realty",
+    "brand": "Digital Realty",
+    "facilityCode": "NTT1",
+    "website": "https://www.digitalrealty.com/data-centers/north-america/united-states/new-jersey/secaucus",
+    "status": "Operational",
+    "openingDate": "1999-08-20",
+    "location": {
+      "address": "165 Halsey Street",
+      "city": "Newark",
+      "region": "New Jersey",
+      "country": "United States",
+      "postalCode": "07102",
+      "campus": "Newark Campus"
+    },
+    "coordinates": {
+      "latitude": 40.7282,
+      "longitude": -74.1776
+    },
+    "specifications": {
+      "buildingSize": 1200000,
+      "whiteSpace": 800000,
+      "siteArea": 3500000,
+      "constructionType": "Purpose-built",
+      "floors": 6,
+      "seismicZone": "Low",
+      "floodRisk": "Moderate"
+    },
+    "power": {
+      "totalCapacity": 140,
+      "powerDensity": 20,
+      "utilityProvider": "PSE&G",
+      "upsRedundancy": "2N",
+      "backupGenerators": "Natural Gas + Diesel, 96 hours",
+      "batteryType": "VRLA",
+      "renewableEnergy": 75
+    },
+    "cooling": {
+      "capacity": 120000,
+      "redundancy": "2N",
+      "systemType": "Chilled water with DX backup",
+      "hotColdAisle": true
+    },
+    "network": {
+      "carriers": ["Verizon", "AT&T", "Level 3", "Cogent", "Telia", "NTT"],
+      "carrierNeutral": true,
+      "darkFiber": ["Crown Castle", "Lightower", "Zayo"],
+      "internetExchanges": ["NY-IX", "DE-CIX New York"],
+      "cloudOnRamps": ["AWS Direct Connect", "Microsoft Azure ExpressRoute", "Google Cloud Interconnect"],
+      "crossConnects": ["Copper", "Fiber"]
+    },
+    "security": {
+      "accessControls": "Mantrap + Biometric",
+      "surveillance": "24x7 CCTV, 180-day retention",
+      "onsiteSecurity": "24x7 Security Staff",
+      "fireSuppressionSystem": "FM200",
+      "certifications": ["ISO 27001", "SOC 1 Type II", "SOC 2 Type II", "Uptime Institute Tier III"]
+    },
+    "services": {
+      "colocationOptions": ["Rack", "Cage", "Private Suite", "Build-to-Suit"],
+      "managedServices": ["Remote Hands", "Monitoring", "Disaster Recovery"],
+      "disasterRecovery": true,
+      "hybridCloud": true
+    },
+    "sustainability": {
+      "pue": 1.28,
+      "renewableEnergy": 75,
+      "carbonNeutral": "2030",
+      "coolingInnovations": ["Water-side economizer"]
+    },
+    "lastUpdated": "2024-01-12"
+  },
+  {
+    "Id": 3,
+    "name": "CoreSite LA1",
+    "operator": "CoreSite",
+    "brand": "CoreSite",
+    "facilityCode": "LA1",
+    "website": "https://www.coresite.com/data-centers/locations/los-angeles/one-wilshire",
+    "status": "Operational",
+    "openingDate": "2001-06-10",
+    "location": {
+      "address": "624 S. Grand Avenue",
+      "city": "Los Angeles",
+      "region": "California",
+      "country": "United States",
+      "postalCode": "90017",
+      "campus": "Downtown LA"
+    },
+    "coordinates": {
+      "latitude": 34.0522,
+      "longitude": -118.2437
+    },
+    "specifications": {
+      "buildingSize": 530000,
+      "whiteSpace": 380000,
+      "siteArea": 1200000,
+      "constructionType": "Retrofit",
+      "floors": 10,
+      "seismicZone": "High",
+      "floodRisk": "Low"
+    },
+    "power": {
+      "totalCapacity": 65,
+      "powerDensity": 15,
+      "utilityProvider": "LADWP",
+      "upsRedundancy": "N+1",
+      "backupGenerators": "Diesel, 48 hours",
+      "batteryType": "Lithium-ion",
+      "renewableEnergy": 50
+    },
+    "cooling": {
+      "capacity": 55000,
+      "redundancy": "N+1",
+      "systemType": "CRAH with economizer",
+      "hotColdAisle": true
+    },
+    "network": {
+      "carriers": ["Verizon", "AT&T", "Lumen", "Cox", "Spectrum", "GTT"],
+      "carrierNeutral": true,
+      "darkFiber": ["Crown Castle", "Zayo", "Fibernet"],
+      "internetExchanges": ["CoreSite Internet Exchange"],
+      "cloudOnRamps": ["AWS Direct Connect", "Microsoft Azure ExpressRoute", "Google Cloud Interconnect"],
+      "crossConnects": ["Copper", "Fiber"]
+    },
+    "security": {
+      "accessControls": "Biometric + Keycard",
+      "surveillance": "24x7 CCTV, 90-day retention",
+      "onsiteSecurity": "Remote monitoring + on-call",
+      "fireSuppressionSystem": "Water mist",
+      "certifications": ["ISO 27001", "SOC 2 Type II", "Uptime Institute Tier II"]
+    },
+    "services": {
+      "colocationOptions": ["Rack", "Cage", "Private Suite"],
+      "managedServices": ["Remote Hands", "Monitoring"],
+      "disasterRecovery": false,
+      "hybridCloud": true
+    },
+    "sustainability": {
+      "pue": 1.35,
+      "renewableEnergy": 50,
+      "carbonNeutral": "2035",
+      "coolingInnovations": ["Air-side economizer"]
+    },
+    "lastUpdated": "2024-01-10"
+  },
+  {
+    "Id": 4,
+    "name": "CyrusOne Phoenix West",
+    "operator": "CyrusOne",
+    "brand": "CyrusOne",
+    "facilityCode": "PHX-W",
+    "website": "https://cyrusone.com/data-centers/phoenix/",
+    "status": "Under Construction",
+    "openingDate": "2024-09-01",
+    "location": {
+      "address": "2323 W. Buckeye Road",
+      "city": "Phoenix",
+      "region": "Arizona",
+      "country": "United States",
+      "postalCode": "85009",
+      "campus": "West Phoenix Campus"
+    },
+    "coordinates": {
+      "latitude": 33.4484,
+      "longitude": -112.0740
+    },
+    "specifications": {
+      "buildingSize": 900000,
+      "whiteSpace": 650000,
+      "siteArea": 2800000,
+      "constructionType": "Purpose-built",
+      "floors": 2,
+      "seismicZone": "Moderate",
+      "floodRisk": "Low"
+    },
+    "power": {
+      "totalCapacity": 125,
+      "powerDensity": 25,
+      "utilityProvider": "APS",
+      "upsRedundancy": "2N",
+      "backupGenerators": "Natural Gas, 120 hours",
+      "batteryType": "Lithium-ion",
+      "renewableEnergy": 90
+    },
+    "cooling": {
+      "capacity": 110000,
+      "redundancy": "2N",
+      "systemType": "Direct evaporative with backup chilled water",
+      "hotColdAisle": true
+    },
+    "network": {
+      "carriers": ["Verizon", "Lumen", "Cox", "Windstream", "Cogent"],
+      "carrierNeutral": true,
+      "darkFiber": ["Crown Castle", "Zayo"],
+      "internetExchanges": ["Phoenix Internet Exchange"],
+      "cloudOnRamps": ["AWS Direct Connect", "Microsoft Azure ExpressRoute", "Google Cloud Interconnect"],
+      "crossConnects": ["Fiber", "Copper"]
+    },
+    "security": {
+      "accessControls": "Biometric + Keycard + PIN + Mantrap",
+      "surveillance": "24x7 CCTV, 365-day retention",
+      "onsiteSecurity": "24x7 Security Staff",
+      "fireSuppressionSystem": "VESDA with Inergen",
+      "certifications": ["ISO 27001", "SOC 2 Type II", "PCI-DSS", "Uptime Institute Tier III"]
+    },
+    "services": {
+      "colocationOptions": ["Rack", "Cage", "Private Suite", "Wholesale", "Hyperscale"],
+      "managedServices": ["Remote Hands", "24x7 Monitoring", "Backup Services", "DRaaS"],
+      "disasterRecovery": true,
+      "hybridCloud": true
+    },
+    "sustainability": {
+      "pue": 1.15,
+      "renewableEnergy": 90,
+      "carbonNeutral": "2025",
+      "coolingInnovations": ["Liquid immersion cooling", "Free cooling"]
+    },
+    "lastUpdated": "2024-01-18"
+  },
+  {
+    "Id": 5,
+    "name": "Iron Mountain DEN1",
+    "operator": "Iron Mountain",
+    "brand": "Iron Mountain Data Centers",
+    "facilityCode": "DEN1",
+    "website": "https://www.ironmountain.com/data-centers/denver",
+    "status": "Operational",
+    "openingDate": "2018-11-12",
+    "location": {
+      "address": "8755 Henderson Road",
+      "city": "Denver",
+      "region": "Colorado",
+      "country": "United States",
+      "postalCode": "80640",
+      "campus": "Denver Tech Center"
+    },
+    "coordinates": {
+      "latitude": 39.7392,
+      "longitude": -104.9903
+    },
+    "specifications": {
+      "buildingSize": 425000,
+      "whiteSpace": 300000,
+      "siteArea": 1500000,
+      "constructionType": "Purpose-built",
+      "floors": 3,
+      "seismicZone": "Low",
+      "floodRisk": "Low"
+    },
+    "power": {
+      "totalCapacity": 42,
+      "powerDensity": 12,
+      "utilityProvider": "Xcel Energy",
+      "upsRedundancy": "N+1",
+      "backupGenerators": "Diesel, 72 hours",
+      "batteryType": "VRLA",
+      "renewableEnergy": 85
+    },
+    "cooling": {
+      "capacity": 38000,
+      "redundancy": "N+1",
+      "systemType": "Air-cooled chiller with economizer",
+      "hotColdAisle": true
+    },
+    "network": {
+      "carriers": ["Lumen", "Comcast", "Zayo", "Cogent", "GTT"],
+      "carrierNeutral": true,
+      "darkFiber": ["Zayo", "FiberLight"],
+      "internetExchanges": ["Denver Internet Exchange"],
+      "cloudOnRamps": ["AWS Direct Connect", "Microsoft Azure ExpressRoute"],
+      "crossConnects": ["Fiber"]
+    },
+    "security": {
+      "accessControls": "Keycard + PIN + Mantrap",
+      "surveillance": "24x7 CCTV, 90-day retention",
+      "onsiteSecurity": "Business hours + on-call",
+      "fireSuppressionSystem": "FM200",
+      "certifications": ["ISO 27001", "SOC 2 Type II", "Uptime Institute Tier II"]
+    },
+    "services": {
+      "colocationOptions": ["Rack", "Cage", "Private Suite"],
+      "managedServices": ["Remote Hands", "Monitoring", "Data Protection"],
+      "disasterRecovery": true,
+      "hybridCloud": false
+    },
+    "sustainability": {
+      "pue": 1.32,
+      "renewableEnergy": 85,
+      "carbonNeutral": "2030",
+      "coolingInnovations": ["Air-side economizer"]
+    },
+    "lastUpdated": "2024-01-08"
+  },
+  {
+    "Id": 6,
+    "name": "QTS Chicago",
+    "operator": "QTS Realty Trust",
+    "brand": "QTS",
+    "facilityCode": "CHI",
+    "website": "https://www.qtsdatacenters.com/data-centers/chicago",
+    "status": "Operational",
+    "openingDate": "2010-04-22",
+    "location": {
+      "address": "1025 W Van Buren St",
+      "city": "Chicago",
+      "region": "Illinois",
+      "country": "United States",
+      "postalCode": "60607",
+      "campus": "Chicago Metro"
+    },
+    "coordinates": {
+      "latitude": 41.8781,
+      "longitude": -87.6298
+    },
+    "specifications": {
+      "buildingSize": 1100000,
+      "whiteSpace": 780000,
+      "siteArea": 3200000,
+      "constructionType": "Retrofit",
+      "floors": 8,
+      "seismicZone": "Low",
+      "floodRisk": "Moderate"
+    },
+    "power": {
+      "totalCapacity": 85,
+      "powerDensity": 18,
+      "utilityProvider": "ComEd",
+      "upsRedundancy": "2N",
+      "backupGenerators": "Natural Gas + Diesel, 168 hours",
+      "batteryType": "Lithium-ion",
+      "renewableEnergy": 60
+    },
+    "cooling": {
+      "capacity": 72000,
+      "redundancy": "N+1",
+      "systemType": "Chilled water with free cooling",
+      "hotColdAisle": true
+    },
+    "network": {
+      "carriers": ["AT&T", "Verizon", "Lumen", "Comcast", "WOW", "Cogent"],
+      "carrierNeutral": true,
+      "darkFiber": ["Crown Castle", "Zayo", "Lightower"],
+      "internetExchanges": ["Chicago Internet Exchange"],
+      "cloudOnRamps": ["AWS Direct Connect", "Microsoft Azure ExpressRoute", "Google Cloud Interconnect"],
+      "crossConnects": ["Copper", "Fiber"]
+    },
+    "security": {
+      "accessControls": "Biometric + Keycard + Mantrap",
+      "surveillance": "24x7 CCTV, 120-day retention",
+      "onsiteSecurity": "24x7 Security Staff",
+      "fireSuppressionSystem": "VESDA with water mist",
+      "certifications": ["ISO 27001", "SOC 1 Type II", "SOC 2 Type II", "Uptime Institute Tier III"]
+    },
+    "services": {
+      "colocationOptions": ["Rack", "Cage", "Private Suite", "Wholesale"],
+      "managedServices": ["Remote Hands", "24x7 Monitoring", "Disaster Recovery", "Cloud Services"],
+      "disasterRecovery": true,
+      "hybridCloud": true
+    },
+    "sustainability": {
+      "pue": 1.29,
+      "renewableEnergy": 60,
+      "carbonNeutral": "2032",
+      "coolingInnovations": ["Water-side economizer", "Variable speed drives"]
+    },
+    "lastUpdated": "2024-01-14"
+  },
+  {
+    "Id": 7,
+    "name": "EdgeConneX Miami",
+    "operator": "EdgeConneX",
+    "brand": "EdgeConneX",
+    "facilityCode": "MIA01",
+    "website": "https://www.edgeconnex.com/data-centers/miami/",
+    "status": "Operational",
+    "openingDate": "2014-07-30",
+    "location": {
+      "address": "50 NE 9th Street",
+      "city": "Miami",
+      "region": "Florida",
+      "country": "United States",
+      "postalCode": "33132",
+      "campus": "Downtown Miami"
+    },
+    "coordinates": {
+      "latitude": 25.7617,
+      "longitude": -80.1918
+    },
+    "specifications": {
+      "buildingSize": 680000,
+      "whiteSpace": 450000,
+      "siteArea": 2100000,
+      "constructionType": "Purpose-built",
+      "floors": 5,
+      "seismicZone": "Low",
+      "floodRisk": "High"
+    },
+    "power": {
+      "totalCapacity": 72,
+      "powerDensity": 14,
+      "utilityProvider": "FPL",
+      "upsRedundancy": "2N",
+      "backupGenerators": "Diesel, 96 hours",
+      "batteryType": "VRLA",
+      "renewableEnergy": 45
+    },
+    "cooling": {
+      "capacity": 65000,
+      "redundancy": "2N",
+      "systemType": "Air-cooled chiller",
+      "hotColdAisle": true
+    },
+    "network": {
+      "carriers": ["AT&T", "Verizon", "Lumen", "Claro", "Telefonica", "Cogent"],
+      "carrierNeutral": true,
+      "darkFiber": ["Crown Castle", "FiberLight"],
+      "internetExchanges": ["Florida Internet Exchange"],
+      "cloudOnRamps": ["AWS Direct Connect", "Microsoft Azure ExpressRoute"],
+      "crossConnects": ["Fiber", "Copper"]
+    },
+    "security": {
+      "accessControls": "Biometric + Keycard",
+      "surveillance": "24x7 CCTV, 90-day retention",
+      "onsiteSecurity": "24x7 Security Staff",
+      "fireSuppressionSystem": "FM200",
+      "certifications": ["SOC 2 Type II", "Uptime Institute Tier II"]
+    },
+    "services": {
+      "colocationOptions": ["Rack", "Cage", "Private Suite"],
+      "managedServices": ["Remote Hands", "Monitoring"],
+      "disasterRecovery": false,
+      "hybridCloud": true
+    },
+    "sustainability": {
+      "pue": 1.42,
+      "renewableEnergy": 45,
+      "carbonNeutral": "2035",
+      "coolingInnovations": ["Variable speed drives"]
+    },
+    "lastUpdated": "2024-01-05"
+  },
+  {
+    "Id": 8,
+    "name": "DataBank Seattle",
+    "operator": "DataBank",
+    "brand": "DataBank",
+    "facilityCode": "SEA1",
+    "website": "https://www.databank.com/data-centers/seattle/",
+    "status": "Planned",
+    "openingDate": "2025-03-15",
+    "location": {
+      "address": "2020 5th Avenue",
+      "city": "Seattle",
+      "region": "Washington",
+      "country": "United States",
+      "postalCode": "98121",
+      "campus": "Belltown District"
+    },
+    "coordinates": {
+      "latitude": 47.6062,
+      "longitude": -122.3321
+    },
+    "specifications": {
+      "buildingSize": 560000,
+      "whiteSpace": 420000,
+      "siteArea": 1800000,
+      "constructionType": "Purpose-built",
+      "floors": 6,
+      "seismicZone": "High",
+      "floodRisk": "Low"
+    },
+    "power": {
+      "totalCapacity": 68,
+      "powerDensity": 22,
+      "utilityProvider": "Seattle City Light",
+      "upsRedundancy": "2N",
+      "backupGenerators": "Natural Gas, 120 hours",
+      "batteryType": "Lithium-ion",
+      "renewableEnergy": 95
+    },
+    "cooling": {
+      "capacity": 58000,
+      "redundancy": "2N",
+      "systemType": "Free cooling with backup chiller",
+      "hotColdAisle": true
+    },
+    "network": {
+      "carriers": ["Lumen", "Comcast", "Wave", "Integra", "Cogent"],
+      "carrierNeutral": true,
+      "darkFiber": ["Zayo", "Wave"],
+      "internetExchanges": ["Seattle Internet Exchange"],
+      "cloudOnRamps": ["AWS Direct Connect", "Microsoft Azure ExpressRoute", "Google Cloud Interconnect"],
+      "crossConnects": ["Fiber"]
+    },
+    "security": {
+      "accessControls": "Biometric + Keycard + PIN + Mantrap",
+      "surveillance": "24x7 CCTV, 180-day retention",
+      "onsiteSecurity": "24x7 Security Staff",
+      "fireSuppressionSystem": "VESDA with Inergen",
+      "certifications": ["ISO 27001", "SOC 2 Type II", "PCI-DSS", "Uptime Institute Tier III"]
+    },
+    "services": {
+      "colocationOptions": ["Rack", "Cage", "Private Suite", "Wholesale"],
+      "managedServices": ["Remote Hands", "24x7 Monitoring", "Disaster Recovery"],
+      "disasterRecovery": true,
+      "hybridCloud": true
+    },
+    "sustainability": {
+      "pue": 1.18,
+      "renewableEnergy": 95,
+      "carbonNeutral": "2024",
+      "coolingInnovations": ["Liquid cooling ready", "AI-optimized cooling"]
+    },
+    "lastUpdated": "2024-01-20"
+  },
+  {
+    "Id": 9,
+    "name": "Cologix TOR1",
+    "operator": "Cologix",
+    "brand": "Cologix",
+    "facilityCode": "TOR1",
+    "website": "https://www.cologix.com/data-centers/toronto/",
+    "status": "Operational",
+    "openingDate": "2005-09-18",
+    "location": {
+      "address": "151 Front Street West",
+      "city": "Toronto",
+      "region": "Ontario",
+      "country": "Canada",
+      "postalCode": "M5J 2N1",
+      "campus": "Toronto Financial District"
+    },
+    "coordinates": {
+      "latitude": 43.6426,
+      "longitude": -79.3871
+    },
+    "specifications": {
+      "buildingSize": 820000,
+      "whiteSpace": 580000,
+      "siteArea": 2400000,
+      "constructionType": "Retrofit",
+      "floors": 12,
+      "seismicZone": "Low",
+      "floodRisk": "Low"
+    },
+    "power": {
+      "totalCapacity": 78,
+      "powerDensity": 16,
+      "utilityProvider": "Toronto Hydro",
+      "upsRedundancy": "2N",
+      "backupGenerators": "Natural Gas + Diesel, 72 hours",
+      "batteryType": "VRLA",
+      "renewableEnergy": 100
+    },
+    "cooling": {
+      "capacity": 68000,
+      "redundancy": "N+1",
+      "systemType": "Chilled water with free cooling",
+      "hotColdAisle": true
+    },
+    "network": {
+      "carriers": ["Bell Canada", "Rogers", "Telus", "Cogent", "Zayo", "GTT"],
+      "carrierNeutral": true,
+      "darkFiber": ["Bell Canada", "Rogers", "Zayo"],
+      "internetExchanges": ["TorIX"],
+      "cloudOnRamps": ["AWS Direct Connect", "Microsoft Azure ExpressRoute", "Google Cloud Interconnect"],
+      "crossConnects": ["Fiber", "Copper"]
+    },
+    "security": {
+      "accessControls": "Biometric + Keycard + Mantrap",
+      "surveillance": "24x7 CCTV, 90-day retention",
+      "onsiteSecurity": "24x7 Security Staff",
+      "fireSuppressionSystem": "VESDA with Inergen",
+      "certifications": ["ISO 27001", "SOC 2 Type II", "Uptime Institute Tier III"]
+    },
+    "services": {
+      "colocationOptions": ["Rack", "Cage", "Private Suite"],
+      "managedServices": ["Remote Hands", "Monitoring", "Cloud Connect"],
+      "disasterRecovery": true,
+      "hybridCloud": true
+    },
+    "sustainability": {
+      "pue": 1.31,
+      "renewableEnergy": 100,
+      "carbonNeutral": "2025",
+      "coolingInnovations": ["Free cooling", "Variable speed drives"]
+    },
+    "lastUpdated": "2024-01-16"
+  },
+  {
+    "Id": 10,
+    "name": "Interxion Frankfurt",
+    "operator": "Digital Realty (Interxion)",
+    "brand": "Interxion",
+    "facilityCode": "FRA12",
+    "website": "https://www.digitalrealty.com/data-centers/europe/germany/frankfurt",
+    "status": "Operational",
+    "openingDate": "2016-05-08",
+    "location": {
+      "address": "Hanauer Landstraße 302",
+      "city": "Frankfurt am Main",
+      "region": "Hessen",
+      "country": "Germany",
+      "postalCode": "60314",
+      "campus": "Frankfurt Campus"
+    },
+    "coordinates": {
+      "latitude": 50.1109,
+      "longitude": 8.6821
+    },
+    "specifications": {
+      "buildingSize": 950000,
+      "whiteSpace": 680000,
+      "siteArea": 2600000,
+      "constructionType": "Purpose-built",
+      "floors": 4,
+      "seismicZone": "Low",
+      "floodRisk": "Low"
+    },
+    "power": {
+      "totalCapacity": 115,
+      "powerDensity": 24,
+      "utilityProvider": "Mainova",
+      "upsRedundancy": "2N",
+      "backupGenerators": "Natural Gas, 72 hours",
+      "batteryType": "Lithium-ion",
+      "renewableEnergy": 100
+    },
+    "cooling": {
+      "capacity": 95000,
+      "redundancy": "2N",
+      "systemType": "Free cooling with chilled water backup",
+      "hotColdAisle": true
+    },
+    "network": {
+      "carriers": ["Deutsche Telekom", "Vodafone", "Orange", "BT", "NTT", "Cogent"],
+      "carrierNeutral": true,
+      "darkFiber": ["Deutsche Telekom", "Vodafone", "euNetworks"],
+      "internetExchanges": ["DE-CIX Frankfurt"],
+      "cloudOnRamps": ["AWS Direct Connect", "Microsoft Azure ExpressRoute", "Google Cloud Interconnect", "Oracle FastConnect"],
+      "crossConnects": ["Fiber", "Copper"]
+    },
+    "security": {
+      "accessControls": "Biometric + Keycard + PIN + Mantrap",
+      "surveillance": "24x7 CCTV, 180-day retention",
+      "onsiteSecurity": "24x7 Security Staff",
+      "fireSuppressionSystem": "VESDA with Inergen",
+      "certifications": ["ISO 27001", "ISO 9001", "SOC 1 Type II", "SOC 2 Type II", "Uptime Institute Tier III"]
+    },
+    "services": {
+      "colocationOptions": ["Rack", "Cage", "Private Suite", "Wholesale"],
+      "managedServices": ["Remote Hands", "24x7 Monitoring", "Cloud Connect", "Disaster Recovery"],
+      "disasterRecovery": true,
+      "hybridCloud": true
+    },
+    "sustainability": {
+      "pue": 1.22,
+      "renewableEnergy": 100,
+      "carbonNeutral": "2030",
+      "coolingInnovations": ["Free cooling", "Liquid cooling ready", "AI monitoring"]
+    },
+    "lastUpdated": "2024-01-17"
+  },
+  {
+    "Id": 11,
+    "name": "Equinix LD5",
+    "operator": "Equinix",
+    "brand": "Equinix",
+    "facilityCode": "LD5",
+    "website": "https://www.equinix.com/locations/europe-colocation/united-kingdom-colocation/london-data-centers/ld5/",
+    "status": "Operational",
+    "openingDate": "2009-12-03",
+    "location": {
+      "address": "8 Buckingham Avenue",
+      "city": "London",
+      "region": "England",
+      "country": "United Kingdom",
+      "postalCode": "TW14 9LB",
+      "campus": "Slough Trading Estate"
+    },
+    "coordinates": {
+      "latitude": 51.4994,
+      "longitude": -0.1276
+    },
+    "specifications": {
+      "buildingSize": 1150000,
+      "whiteSpace": 820000,
+      "siteArea": 3100000,
+      "constructionType": "Purpose-built",
+      "floors": 3,
+      "seismicZone": "Very Low",
+      "floodRisk": "Low"
+    },
+    "power": {
+      "totalCapacity": 135,
+      "powerDensity": 21,
+      "utilityProvider": "National Grid",
+      "upsRedundancy": "2N",
+      "backupGenerators": "Natural Gas + Diesel, 120 hours",
+      "batteryType": "Lithium-ion",
+      "renewableEnergy": 100
+    },
+    "cooling": {
+      "capacity": 118000,
+      "redundancy": "2N",
+      "systemType": "Free cooling with chilled water",
+      "hotColdAisle": true
+    },
+    "network": {
+      "carriers": ["BT", "Virgin Media", "Vodafone", "TalkTalk", "PCCW", "Cogent"],
+      "carrierNeutral": true,
+      "darkFiber": ["BT", "Virgin Media", "euNetworks"],
+      "internetExchanges": ["London Internet Exchange"],
+      "cloudOnRamps": ["AWS Direct Connect", "Microsoft Azure ExpressRoute", "Google Cloud Interconnect", "Oracle FastConnect"],
+      "crossConnects": ["Fiber", "Copper"]
+    },
+    "security": {
+      "accessControls": "Biometric + Keycard + PIN + Mantrap",
+      "surveillance": "24x7 CCTV, 365-day retention",
+      "onsiteSecurity": "24x7 Security Staff",
+      "fireSuppressionSystem": "VESDA with Inergen",
+      "certifications": ["ISO 27001", "ISO 9001", "SOC 2 Type II", "PCI-DSS", "Uptime Institute Tier III"]
+    },
+    "services": {
+      "colocationOptions": ["Rack", "Cage", "Private Suite", "Wholesale", "Hyperscale"],
+      "managedServices": ["Remote Hands", "24x7 Monitoring", "Cloud Connect", "Disaster Recovery"],
+      "disasterRecovery": true,
+      "hybridCloud": true
+    },
+    "sustainability": {
+      "pue": 1.19,
+      "renewableEnergy": 100,
+      "carbonNeutral": "2030",
+      "coolingInnovations": ["Free cooling", "Liquid cooling", "AI optimization"]
+    },
+    "lastUpdated": "2024-01-19"
+  },
+  {
+    "Id": 12,
+    "name": "Global Switch Singapore",
+    "operator": "Global Switch",
+    "brand": "Global Switch",
+    "facilityCode": "SG1",
+    "website": "https://www.globalswitch.com/data-centres/singapore/",
+    "status": "Operational",
+    "openingDate": "2012-08-25",
+    "location": {
+      "address": "30 Loyang Way",
+      "city": "Singapore",
+      "region": "Singapore",
+      "country": "Singapore",
+      "postalCode": "508769",
+      "campus": "Loyang Data Centre Park"
+    },
+    "coordinates": {
+      "latitude": 1.3521,
+      "longitude": 103.8198
+    },
+    "specifications": {
+      "buildingSize": 725000,
+      "whiteSpace": 520000,
+      "siteArea": 2200000,
+      "constructionType": "Purpose-built",
+      "floors": 6,
+      "seismicZone": "Low",
+      "floodRisk": "Low"
+    },
+    "power": {
+      "totalCapacity": 88,
+      "powerDensity": 18,
+      "utilityProvider": "SP Group",
+      "upsRedundancy": "2N",
+      "backupGenerators": "Diesel, 72 hours",
+      "batteryType": "VRLA",
+      "renewableEnergy": 30
+    },
+    "cooling": {
+      "capacity": 78000,
+      "redundancy": "2N",
+      "systemType": "Chilled water",
+      "hotColdAisle": true
+    },
+    "network": {
+      "carriers": ["Singtel", "StarHub", "M1", "ViewQwest", "Pacific Internet", "Cogent"],
+      "carrierNeutral": true,
+      "darkFiber": ["Singtel", "StarHub", "NetLink Trust"],
+      "internetExchanges": ["Singapore Internet Exchange"],
+      "cloudOnRamps": ["AWS Direct Connect", "Microsoft Azure ExpressRoute", "Google Cloud Interconnect"],
+      "crossConnects": ["Fiber", "Copper"]
+    },
+    "security": {
+      "accessControls": "Biometric + Keycard + Mantrap",
+      "surveillance": "24x7 CCTV, 90-day retention",
+      "onsiteSecurity": "24x7 Security Staff",
+      "fireSuppressionSystem": "VESDA with Inergen",
+      "certifications": ["ISO 27001", "SOC 2 Type II", "Uptime Institute Tier III"]
+    },
+    "services": {
+      "colocationOptions": ["Rack", "Cage", "Private Suite", "Wholesale"],
+      "managedServices": ["Remote Hands", "24x7 Monitoring", "Disaster Recovery"],
+      "disasterRecovery": true,
+      "hybridCloud": true
+    },
+    "sustainability": {
+      "pue": 1.38,
+      "renewableEnergy": 30,
+      "carbonNeutral": "2040",
+      "coolingInnovations": ["Variable speed drives"]
+    },
+    "lastUpdated": "2024-01-11"
+  },
+  {
+    "Id": 13,
+    "name": "NextDC Sydney",
+    "operator": "NextDC",
+    "brand": "NextDC",
+    "facilityCode": "S1",
+    "website": "https://www.nextdc.com/data-centres/sydney-data-centres/s1-sydney-data-centre",
+    "status": "Operational",
+    "openingDate": "2010-03-14",
+    "location": {
+      "address": "4 Eden Park Drive",
+      "city": "Sydney",
+      "region": "New South Wales",
+      "country": "Australia",
+      "postalCode": "2113",
+      "campus": "Macquarie Park"
+    },
+    "coordinates": {
+      "latitude": -33.8688,
+      "longitude": 151.2093
+    },
+    "specifications": {
+      "buildingSize": 640000,
+      "whiteSpace": 460000,
+      "siteArea": 1950000,
+      "constructionType": "Purpose-built",
+      "floors": 7,
+      "seismicZone": "Low",
+      "floodRisk": "Low"
+    },
+    "power": {
+      "totalCapacity": 75,
+      "powerDensity": 15,
+      "utilityProvider": "Ausgrid",
+      "upsRedundancy": "2N",
+      "backupGenerators": "Diesel, 96 hours",
+      "batteryType": "Lithium-ion",
+      "renewableEnergy": 100
+    },
+    "cooling": {
+      "capacity": 65000,
+      "redundancy": "2N",
+      "systemType": "Indirect evaporative cooling",
+      "hotColdAisle": true
+    },
+    "network": {
+      "carriers": ["Telstra", "Optus", "TPG", "Vocus", "Superloop", "Cogent"],
+      "carrierNeutral": true,
+      "darkFiber": ["Telstra", "Optus", "Vocus"],
+      "internetExchanges": ["Internet Exchange Australia"],
+      "cloudOnRamps": ["AWS Direct Connect", "Microsoft Azure ExpressRoute", "Google Cloud Interconnect"],
+      "crossConnects": ["Fiber"]
+    },
+    "security": {
+      "accessControls": "Biometric + Keycard + PIN + Mantrap",
+      "surveillance": "24x7 CCTV, 120-day retention",
+      "onsiteSecurity": "24x7 Security Staff",
+      "fireSuppressionSystem": "VESDA with water mist",
+      "certifications": ["ISO 27001", "SOC 2 Type II", "PCI-DSS", "Uptime Institute Tier IV"]
+    },
+    "services": {
+      "colocationOptions": ["Rack", "Cage", "Private Suite", "Wholesale"],
+      "managedServices": ["Remote Hands", "24x7 Monitoring", "Cloud Connect", "Disaster Recovery"],
+      "disasterRecovery": true,
+      "hybridCloud": true
+    },
+    "sustainability": {
+      "pue": 1.26,
+      "renewableEnergy": 100,
+      "carbonNeutral": "2025",
+      "coolingInnovations": ["Indirect evaporative cooling", "Free cooling"]
+    },
+    "lastUpdated": "2024-01-13"
+  },
+  {
+    "Id": 14,
+    "name": "STACK Infrastructure Amsterdam",
+    "operator": "STACK Infrastructure",
+    "brand": "STACK",
+    "facilityCode": "AMS01",
+    "website": "https://www.stackinfra.com/data-centers/amsterdam/",
+    "status": "Under Construction",
+    "openingDate": "2024-11-30",
+    "location": {
+      "address": "Science Park 140",
+      "city": "Amsterdam",
+      "region": "North Holland",
+      "country": "Netherlands",
+      "postalCode": "1098 XG",
+      "campus": "Amsterdam Science Park"
+    },
+    "coordinates": {
+      "latitude": 52.3676,
+      "longitude": 4.9041
+    },
+    "specifications": {
+      "buildingSize": 1080000,
+      "whiteSpace": 760000,
+      "siteArea": 3400000,
+      "constructionType": "Purpose-built",
+      "floors": 3,
+      "seismicZone": "Very Low",
+      "floodRisk": "Moderate"
+    },
+    "power": {
+      "totalCapacity": 150,
+      "powerDensity": 28,
+      "utilityProvider": "Liander",
+      "upsRedundancy": "2N",
+      "backupGenerators": "HVO Diesel, 120 hours",
+      "batteryType": "Lithium-ion",
+      "renewableEnergy": 100
+    },
+    "cooling": {
+      "capacity": 125000,
+      "redundancy": "2N",
+      "systemType": "Free cooling with backup chiller",
+      "hotColdAisle": true
+    },
+    "network": {
+      "carriers": ["KPN", "Vodafone", "T-Mobile", "GTT", "NTT", "Cogent"],
+      "carrierNeutral": true,
+      "darkFiber": ["KPN", "euNetworks", "GlobalConnect"],
+      "internetExchanges": ["AMS-IX"],
+      "cloudOnRamps": ["AWS Direct Connect", "Microsoft Azure ExpressRoute", "Google Cloud Interconnect", "Oracle FastConnect"],
+      "crossConnects": ["Fiber"]
+    },
+    "security": {
+      "accessControls": "Biometric + Keycard + PIN + Mantrap",
+      "surveillance": "24x7 CCTV, 365-day retention",
+      "onsiteSecurity": "24x7 Security Staff",
+      "fireSuppressionSystem": "VESDA with Inergen",
+      "certifications": ["ISO 27001", "ISO 9001", "SOC 2 Type II", "PCI-DSS", "Uptime Institute Tier III"]
+    },
+    "services": {
+      "colocationOptions": ["Rack", "Cage", "Private Suite", "Wholesale", "Hyperscale"],
+      "managedServices": ["Remote Hands", "24x7 Monitoring", "Cloud Connect", "Disaster Recovery"],
+      "disasterRecovery": true,
+      "hybridCloud": true
+    },
+    "sustainability": {
+      "pue": 1.12,
+      "renewableEnergy": 100,
+      "carbonNeutral": "2024",
+      "coolingInnovations": ["Free cooling", "Liquid immersion cooling", "AI-optimized systems"]
+    },
+    "lastUpdated": "2024-01-21"
+  },
+  {
+    "Id": 15,
+    "name": "Ascenty SP4",
+    "operator": "Ascenty",
+    "brand": "Ascenty Data Centers",
+    "facilityCode": "SP4",
+    "website": "https://www.ascenty.com/data-centers/sao-paulo/",
+    "status": "Operational",
+    "openingDate": "2019-06-20",
+    "location": {
+      "address": "Rua Joaquim Nabuco, 1000",
+      "city": "São Paulo",
+      "region": "São Paulo",
+      "country": "Brazil",
+      "postalCode": "04038-002",
+      "campus": "Brooklin Campus"
+    },
+    "coordinates": {
+      "latitude": -23.5505,
+      "longitude": -46.6333
+    },
+    "specifications": {
+      "buildingSize": 485000,
+      "whiteSpace": 340000,
+      "siteArea": 1600000,
+      "constructionType": "Purpose-built",
+      "floors": 4,
+      "seismicZone": "Low",
+      "floodRisk": "Low"
+    },
+    "power": {
+      "totalCapacity": 52,
+      "powerDensity": 12,
+      "utilityProvider": "Enel",
+      "upsRedundancy": "N+1",
+      "backupGenerators": "Diesel, 72 hours",
+      "batteryType": "VRLA",
+      "renewableEnergy": 65
+    },
+    "cooling": {
+      "capacity": 46000,
+      "redundancy": "N+1",
+      "systemType": "Chilled water with economizer",
+      "hotColdAisle": true
+    },
+    "network": {
+      "carriers": ["Oi", "Vivo", "Tim", "Claro", "Level 3", "Cogent"],
+      "carrierNeutral": true,
+      "darkFiber": ["Oi", "Vivo", "Algar Telecom"],
+      "internetExchanges": ["IX.br São Paulo"],
+      "cloudOnRamps": ["AWS Direct Connect", "Microsoft Azure ExpressRoute", "Google Cloud Interconnect"],
+      "crossConnects": ["Fiber", "Copper"]
+    },
+    "security": {
+      "accessControls": "Biometric + Keycard + Mantrap",
+      "surveillance": "24x7 CCTV, 90-day retention",
+      "onsiteSecurity": "24x7 Security Staff",
+      "fireSuppressionSystem": "VESDA with FM200",
+      "certifications": ["ISO 27001", "SOC 2 Type II", "Uptime Institute Tier II"]
+    },
+    "services": {
+      "colocationOptions": ["Rack", "Cage", "Private Suite"],
+      "managedServices": ["Remote Hands", "24x7 Monitoring", "Cloud Connect"],
+      "disasterRecovery": true,
+      "hybridCloud": true
+    },
+    "sustainability": {
+      "pue": 1.34,
+      "renewableEnergy": 65,
+      "carbonNeutral": "2035",
+      "coolingInnovations": ["Water-side economizer"]
+    },
+    "lastUpdated": "2024-01-09"
+  }
+]
